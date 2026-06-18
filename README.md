@@ -1,11 +1,11 @@
-# 🧬 ev0lutionChamber
+# ev0lutionChamber
 
 **Automated Payload Obfuscation & OpSec Risk Analysis Framework**
 
 > **CURRENT STATUS: Vibe Coded Prototype**  
 > *This project is currently a "vibe coded" prototype. The core architecture, data flow, and feedback loops are fully functional, but the underlying engines (static analysis, sandbox emulation, advanced obfuscation) are currently using placeholder logic. Expect bugs, rough edges, and rapid iteration.*
 
-## 📖 Overview
+## Overview
 
 `ev0lutionChamber` is a modular Red Team CLI tool designed to automate the payload obfuscation process. Instead of manually guessing which obfuscation techniques will bypass a specific target's defenses, this tool ingests target environment reconnaissance data, assesses the OpSec risk, and iteratively mutates the payload until it is both evasive and functional.
 
