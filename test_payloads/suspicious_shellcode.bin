@@ -1,0 +1,9 @@
+# Create this with Python:
+with open('test_payloads/suspicious_shellcode.bin', 'wb') as f:
+    # Simulated shellcode with suspicious API calls
+    payload = b'\x90' * 10  # NOP sled
+    payload += b'VirtualAlloc\x00'  # Memory allocation API
+    payload += b'cmd.exe /c whoami\x00'  # Command execution
+    payload += b'CreateRemoteThread\x00'  # Process injection API
+    payload += b'\xcc' * 5  # INT3 breakpoints
+    f.write(payload)

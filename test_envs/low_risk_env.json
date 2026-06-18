@@ -1,0 +1,12 @@
+{
+    "os_version": "Windows 10 Home 21H2",
+    "edr_vendors": [],
+    "av_vendors": [
+        "Windows Defender"
+    ],
+    "network_defenses": [],
+    "custom_attributes": {
+        "user_privilege": "standard",
+        "firewall_enabled": true
+    }
+}

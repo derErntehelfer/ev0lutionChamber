@@ -1,0 +1,13 @@
+os_version: "Windows 11 Pro 23H2"
+edr_vendors:
+  - "Microsoft Defender for Endpoint"
+av_vendors:
+  - "Microsoft Defender"
+  - "Malwarebytes"
+network_defenses:
+  - "Windows Firewall"
+custom_attributes:
+  user_privilege: "standard"
+  firewall_enabled: true
+  amsi_enabled: true
+  etw_enabled: false

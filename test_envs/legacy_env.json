@@ -1,0 +1,13 @@
+{
+    "os_version": "Windows 7 SP1",
+    "edr_vendors": [],
+    "av_vendors": [
+        "McAfee"
+    ],
+    "network_defenses": [],
+    "custom_attributes": {
+        "user_privilege": "admin",
+        "firewall_enabled": false,
+        "updates_patched": false
+    }
+}

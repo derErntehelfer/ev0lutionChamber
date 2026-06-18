@@ -1,0 +1,21 @@
+{
+    "os_version": "Windows Server 2022",
+    "edr_vendors": [
+        "CrowdStrike",
+        "SentinelOne"
+    ],
+    "av_vendors": [
+        "CrowdStrike",
+        "Carbon Black"
+    ],
+    "network_defenses": [
+        "Palo Alto Firewall",
+        "Darktrace IDS"
+    ],
+    "custom_attributes": {
+        "user_privilege": "admin",
+        "firewall_enabled": true,
+        "amsi_enabled": true,
+        "etw_enabled": true
+    }
+}

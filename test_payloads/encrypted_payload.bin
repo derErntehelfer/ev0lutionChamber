@@ -1,0 +1,5 @@
+# Create with Python - XOR encrypted payload
+with open('test_payloads/encrypted_payload.bin', 'wb') as f:
+    original = b'VirtualAlloc\x00cmd.exe\x00'
+    encrypted = bytes([b ^ 0x55 for b in original])
+    f.write(encrypted)
